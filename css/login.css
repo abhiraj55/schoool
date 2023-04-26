@@ -1,0 +1,36 @@
+
+.logp{
+    background-color:lightsteelblue;
+    height: 600px;
+    width: 100%;
+    padding: 40px;
+    text-align: center;
+}
+.logp label{
+    text-align: center;
+    margin:10px;
+}
+.logp input{
+    text-align: center;
+    margin: 5px;
+}
+.logp button{
+    float: right;
+    margin-right:40% ;
+}
+.logp h1{
+    margin-top: 250px;
+    color: blue;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 30px;
+    text-align: center;
+}
+@media screen  and (max-width:700px){
+    .logp h1{
+        margin-top: 140px;
+    }
+    
+}
+.note{
+    background-color: lightsteelblue;
+}

@@ -1,0 +1,107 @@
+.cont{
+    position:absolute;
+    width: 100%;
+    margin: 0px;
+    
+}
+.sidebar{
+    position:absolute;
+    z-index: 999 !important;
+    width: 200px;
+    height: 100vh;
+    background-color: black;
+    opacity: 0.6;
+    transition: all .2s ease-in;
+}
+
+ .sidebar li{
+    color: aquamarine;
+    text-align: justify;
+    margin: 40px 10px 20px 10px;
+    border-bottom:2px solid blue;
+    text-transform: uppercase;
+
+}
+
+.sidebar li a:hover{
+    left: 5px;
+    color:moccasin;
+    font-size:15px;
+    font-weight: 550;
+    background-color:transparent;
+}
+.nav li a:active{
+    color:red;
+    background-color: red;;
+}
+
+.header i{
+    position: absolute;
+    z-index: 950;
+    left: 3%;
+    font-size: 17px;
+    border:2px solid grey;
+    float: left;
+    margin-top:140px;
+    padding: 6px 6px;
+    
+}
+@media screen and (max-width: 520px) {
+    .header i{
+        font-size: 13px;
+        margin-top: 65px;
+    }
+    
+}
+@media (min-width:521px) and (max-width:1015px) {
+    .header i{
+        margin-top: 90px;
+    }
+    
+}
+.header{
+    position: absolute;
+    background-color: yellow;
+    width: 100%;
+    height: auto;
+    padding: 1em 1em;
+}
+
+.header h1{
+    color: blue;
+    font-size: 6vw;
+    height:auto;
+    text-align: center;
+    white-space: nowrap;
+    margin: 30px 40px 0px 40px;
+    text-transform: capitalize;
+}
+.header p{
+    color: blue;
+    font-size:3vw;
+    height:auto;
+    margin-left:50%;
+    white-space: nowrap;
+    text-transform: capitalize;
+}
+@media screen and (max-width:440) {
+    .header h1{
+        font-size: 15vw;
+    }    
+    .header p{
+        font-size: 7vw;
+        margin-left: 70%;
+        font-weight: 600;
+        letter-spacing: normal;
+    }
+}
+
+.close{
+    font-size: 40px;
+    font-weight:600px;
+    color:red;
+    padding: 0px 10px;
+    width: 45px;
+    height:45px;
+    opacity:0.7;
+}

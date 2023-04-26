@@ -1,0 +1,292 @@
+*{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 18px;
+    font-weight:600;
+    word-spacing : 5px;
+    letter-spacing: 0.6px;
+}
+.banimg{
+    margin-top: 220px;
+    width: 70%;
+    margin-left: 15%;
+}
+@media screen  and (max-width:700px){
+    .banimg{
+        margin-top: 90px;
+    }
+    
+}
+.spc h1{
+    color: blue;
+    text-decoration: 4px underline yellow;
+    text-transform: capitalize;
+    text-align: center;
+    font-weight: 600;
+}
+.spc li{
+    list-style: none;
+    font-size: 20px;
+    text-align: justify;
+    margin-left: 0px;
+}
+.spc li img{
+    margin: 10px 0px;
+    height: auto;
+    width: 50px;
+}
+.dir h2{
+    text-align: center;
+    color: blue;
+    text-decoration: 4px yellow underline;
+    font-weight: 600;
+}
+.dir img{
+   height: 225px;
+   min-width: 300px;
+   border:4px solid grey;
+}
+.dir p{
+    text-align: justify;
+}
+.tcr a{
+    text-align: center;
+}
+.tcr a :hover{
+    color: red;
+    width: 260px;
+}
+.thumbnail{
+    display: block;
+    width: 270px;
+    margin: 10px 20px;
+    padding: 10px;
+    text-align: center;
+    /* margin: 5px 10px; */
+    border: 3px solid grey;
+
+}
+.tcr h2{
+    margin-top: 50px 0px ;
+    text-align: center;
+    color: blue;
+    text-decoration: 4px yellow underline;
+    font-weight: 600;
+    text-transform: capitalize;
+}
+.tcr img{
+    height: auto;
+    width: 250px;
+}
+.tcr p{
+    text-align: center;
+    font-size: 20px;
+    color: grey;
+}
+/* *************************payment css **********************/
+.scpic{
+    margin-top: 220px;
+    width: 70%;
+    margin-left: 15%;
+}
+@media screen  and (max-width:700px){
+    .scpic{
+        margin-top: 70px;
+    }
+    
+}
+.pay {
+    text-align: center;
+}
+.picon {
+    height: 100px;
+    width: 250px;
+    border: 2px solid grey ;
+    margin: 10px 10px;
+    padding: 10px 10px;
+    text-align:center;
+    align-items: center;
+    
+}
+@media screen and (max-width:750px){
+    .picon{
+        margin: 20px 20%;
+    }
+}
+#gpay img ,#phonepe img,#paytm img{
+    height: 200px;
+    width: 250px;
+    margin: 10px 16%;
+    padding: 10px 10px;
+    text-align:center;
+}
+.pay span{
+    font-size: 14px;
+}
+.pay span p{
+    font-size: 14px;
+    color: blue;
+}
+.note span{
+    color: blue;
+    font-size: 24px;
+    text-decoration: underline;
+}
+.inst h1{
+    text-align: center;
+    color: blue;
+    text-decoration: 2px underline blue;
+    margin-bottom: 20px;
+}
+.inst ul img{
+    height: 40px;
+    width: 40px;
+    margin-left: 0px;
+}
+/* ******************payment css end********************************** */
+/* ***************************contact css *******************/
+.contactbg{
+    background-image: url(/images/blurscl.jpeg);
+    background-size:100% 100%;
+    background-repeat: no-repeat;
+    background-attachment: scroll;
+}
+.conct{
+    margin-top: 20px;
+    padding: 40px;
+
+}
+@media screen  and (max-width:700px){
+    .conct{
+        margin-top: 50px;
+    }
+}
+@media screen and (max-width:550px) {
+    .contactbg{
+        background-image: none;
+        background-color:  #FFF5EE;
+    }
+    
+}
+.conct h2{
+    color: blue;
+    text-align: center;
+    text-decoration: 3px underline yellow;
+}
+.conct img{
+    height: auto;
+    width: 60px;
+    margin: 10px 50px;
+}
+.conct a{
+    text-transform: capitalize;
+    text-decoration: none;
+    color: #F4BB44;
+}
+@media screen and (max-width:550px){
+    .conct img{
+        width: 30px;
+        margin: 10px 10px;
+    }
+    .conct a{
+        color: black;
+    }
+}
+.conct a:hover{
+    color: blue;
+    font-size: 18px;
+}
+.conct #name,#mob{
+    width: 100%;
+    margin-left: 0px;
+    margin-top: 15px;
+    box-shadow: 2px 3px 5px blue;
+}
+.conct #email{
+    width: 95%;
+    margin-left: 15px ;
+    margin-top: 15px;
+    box-shadow: 2px 3px 5px blue;
+}
+.conct input:focus{
+    color:blue;
+    background-color:lightcyan;
+    border: red;
+}
+.conct textarea{
+    margin-left: 16px;
+    margin-top: 15px;
+    width: 95%;
+    box-shadow: 2px 3px 5px blue;
+    /* background-color: lightsteelblue;*/
+} 
+.conct textarea:focus{
+    background-color: lightcyan;
+}
+.conct button{
+    float: right;
+    margin-top: 15px;
+    margin-right: 20px;
+}
+/* ********************contact css end*********************** */
+/* ************************notification css************************************ */
+.notiimg{
+    margin-top: 220px;
+    width: 50%;
+    margin-left: 25%;
+}
+@media screen  and (max-width:700px){
+    .notiimg{
+        margin-top: 120px;
+    }
+    
+}
+.notification button{
+   margin:1% 45%;
+}
+/* ********************notification css end************************* */
+/* ********************gallery css************************* */
+.gallery h1 {margin-top: 220px;
+    text-align: center;
+    padding: 20px 20px;
+    text-transform: capitalize;
+    color: blue;
+    text-decoration: underline yellow;
+
+}
+@media screen  and (max-width:700px){
+.gallery h1{
+    margin-top: 140px;
+}
+}
+.crtext h2{
+    color: cadetblue;
+    text-align: center;
+}
+/* *******************gallery end************************ */
+/* *******************Admin css************************ */
+.admin h1{
+    margin-top:220px;
+    padding: 20px 20px;
+    text-transform: capitalize;
+    color: blue;
+    text-decoration: underline yellow;
+    text-align: center;
+}
+@media screen and ( max-width:700px){
+    .admin h1{
+        margin-top: 140px;
+
+    }
+}
+.admin h2{
+    color: red;
+    text-align: center;
+}
+.admin i{
+    color:blue;
+    font-size: 80px;
+margin-left: 30%;
+}
+.admin p{
+    text-align: center;
+}
